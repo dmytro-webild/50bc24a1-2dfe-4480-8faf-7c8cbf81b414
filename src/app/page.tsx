@@ -32,17 +32,11 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Features",
-          id: "features",
-        },
+          name: "Features",          id: "features"},
         {
-          name: "Pricing",
-          id: "pricing",
-        },
+          name: "Pricing",          id: "pricing"},
       ]}
       brandName="Parfait"
     />
@@ -54,13 +48,9 @@ export default function LandingPage() {
       description="Redéfinissez la précision avec l'intelligence artificielle la plus élégante du marché. Une puissance brute, servie avec une simplicité totale."
       buttons={[
         {
-          text: "Demander une démo",
-          href: "#contact",
-        },
+          text: "Demander une démo",          href: "#contact"},
         {
-          text: "Découvrir la technologie",
-          href: "#features",
-        },
+          text: "Découvrir la technologie",          href: "#features"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s65xqk"
     />
@@ -73,19 +63,13 @@ export default function LandingPage() {
       metrics={[
         {
           icon: Zap,
-          label: "Vitesse d'exécution",
-          value: "0.4ms",
-        },
+          label: "Vitesse d'exécution",          value: "0.4ms"},
         {
           icon: Shield,
-          label: "Précision validée",
-          value: "99.9%",
-        },
+          label: "Précision validée",          value: "99.9%"},
         {
           icon: Award,
-          label: "Clients satisfaits",
-          value: "500+",
-        },
+          label: "Clients satisfaits",          value: "500+"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -98,23 +82,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "f1",
-          title: "Prédictions instantanées",
-          description: "Obtenez des résultats complexes en une fraction de seconde grâce à notre moteur dopé à l'IA.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xznn8a",
-        },
+          id: "f1",          title: "Prédictions instantanées",          tag: "IA",          description: "Obtenez des résultats complexes en une fraction de seconde grâce à notre moteur dopé à l'IA.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xznn8a"},
         {
-          id: "f2",
-          title: "Design adaptatif",
-          description: "L'outil apprend de vos habitudes pour vous proposer une expérience sur mesure au fil du temps.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=n5rvw5",
-        },
+          id: "f2",          title: "Design adaptatif",          tag: "UX",          description: "L'outil apprend de vos habitudes pour vous proposer une expérience sur mesure au fil du temps.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=n5rvw5"},
         {
-          id: "f3",
-          title: "Sécurité native",
-          description: "Vos données restent privées avec notre architecture de chiffrement de bout en bout.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0ag9v6",
-        },
+          id: "f3",          title: "Sécurité native",          tag: "Security",          description: "Vos données restent privées avec notre architecture de chiffrement de bout en bout.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0ag9v6"},
       ]}
       title="Une interface qui disparaît"
       description="Nous avons supprimé la complexité pour que vous puissiez vous concentrer sur l'essentiel."
@@ -129,47 +101,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "Parfait Analytics",
-          price: "149€",
-          variant: "Premium",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ku5q0t",
-        },
+          id: "p1",          name: "Parfait Analytics",          price: "149€",          variant: "Premium",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ku5q0t"},
         {
-          id: "p2",
-          name: "Parfait Connect",
-          price: "99€",
-          variant: "Standard",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4t5do2",
-        },
+          id: "p2",          name: "Parfait Connect",          price: "99€",          variant: "Standard",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4t5do2"},
         {
-          id: "p3",
-          name: "Parfait Studio",
-          price: "299€",
-          variant: "Pro",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xu60qu",
-        },
+          id: "p3",          name: "Parfait Studio",          price: "299€",          variant: "Pro",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xu60qu"},
         {
-          id: "p4",
-          name: "Parfait Cloud",
-          price: "199€",
-          variant: "Enterprise",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=cxmyni",
-        },
+          id: "p4",          name: "Parfait Cloud",          price: "199€",          variant: "Enterprise",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=cxmyni"},
         {
-          id: "p5",
-          name: "Parfait Flow",
-          price: "49€",
-          variant: "Light",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=3w23ow",
-        },
+          id: "p5",          name: "Parfait Flow",          price: "49€",          variant: "Light",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=3w23ow"},
         {
-          id: "p6",
-          name: "Parfait Logic",
-          price: "399€",
-          variant: "Expert",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gumm8o",
-        },
+          id: "p6",          name: "Parfait Logic",          price: "399€",          variant: "Expert",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gumm8o"},
       ]}
       title="Nos modules"
       description="Optimisez chaque facette de votre activité numérique."
@@ -183,31 +125,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          value: "85%",
-          title: "Gain de productivité",
-          items: [
-            "Automatisation totale",
-            "Réduction des erreurs",
-          ],
+          id: "m1",          value: "85%",          title: "Gain de productivité",          items: [
+            "Automatisation totale",            "Réduction des erreurs"],
         },
         {
-          id: "m2",
-          value: "3x",
-          title: "Croissance moyenne",
-          items: [
-            "Accélération workflow",
-            "Expansion rapide",
-          ],
+          id: "m2",          value: "3x",          title: "Croissance moyenne",          items: [
+            "Accélération workflow",            "Expansion rapide"],
         },
         {
-          id: "m3",
-          value: "100+",
-          title: "Intégrations natives",
-          items: [
-            "APIs flexibles",
-            "Connectivité totale",
-          ],
+          id: "m3",          value: "100+",          title: "Intégrations natives",          items: [
+            "APIs flexibles",            "Connectivité totale"],
         },
       ]}
       title="Impact global"
@@ -223,45 +150,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Claire Dupont",
-          role: "CTO",
-          company: "Innovate",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=x8z54d",
-        },
+          id: "t1",          name: "Claire Dupont",          role: "CTO",          company: "Innovate",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=x8z54d"},
         {
-          id: "t2",
-          name: "Marc Levy",
-          role: "CEO",
-          company: "TechBase",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=cx3d9b",
-        },
+          id: "t2",          name: "Marc Levy",          role: "CEO",          company: "TechBase",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=cx3d9b"},
         {
-          id: "t3",
-          name: "Sophie Martin",
-          role: "Product",
-          company: "ScaleUp",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qvqdfh",
-        },
+          id: "t3",          name: "Sophie Martin",          role: "Product",          company: "ScaleUp",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qvqdfh"},
         {
-          id: "t4",
-          name: "Julien Petit",
-          role: "Lead Dev",
-          company: "FutureAI",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g9k7an",
-        },
+          id: "t4",          name: "Julien Petit",          role: "Lead Dev",          company: "FutureAI",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g9k7an"},
         {
-          id: "t5",
-          name: "Julie Rousseau",
-          role: "Founder",
-          company: "DataZen",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9yldre",
-        },
+          id: "t5",          name: "Julie Rousseau",          role: "Founder",          company: "DataZen",          rating: 5,
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9yldre"},
       ]}
       title="Ce que disent les visionnaires"
       description="L'élégance technologique au service de la performance."
@@ -272,8 +174,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Contact"
       title="Prêt à commencer ?"
       description="Laissez-nous vos coordonnées pour une consultation privée."
@@ -288,49 +189,31 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Produit",
-              href: "#",
-            },
+              label: "Produit",              href: "#"},
             {
-              label: "Solutions",
-              href: "#",
-            },
+              label: "Solutions",              href: "#"},
             {
-              label: "Entreprise",
-              href: "#",
-            },
+              label: "Entreprise",              href: "#"},
           ],
         },
         {
           items: [
             {
-              label: "À propos",
-              href: "#",
-            },
+              label: "À propos",              href: "#"},
             {
-              label: "Carrières",
-              href: "#",
-            },
+              label: "Carrières",              href: "#"},
             {
-              label: "Contact",
-              href: "#",
-            },
+              label: "Contact",              href: "#"},
           ],
         },
         {
           items: [
             {
-              label: "Twitter",
-              href: "#",
-            },
+              label: "Twitter",              href: "#"},
             {
-              label: "LinkedIn",
-              href: "#",
-            },
+              label: "LinkedIn",              href: "#"},
             {
-              label: "Instagram",
-              href: "#",
-            },
+              label: "Instagram",              href: "#"},
           ],
         },
       ]}
